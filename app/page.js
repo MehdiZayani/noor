@@ -2,8 +2,10 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-12">
-      <div>
+    <main className="flex min-h-screen flex-col items-center justify-between p-12 ">
+      <h1 className='text-xl'>Mon project de français </h1>
+      <h3>Par Mehdi Zayani</h3>
+      <div className='my-24'>
        <h1 className='py-8 text-pink-500 text-lg'>L’amour (D'après moi):</h1>
        <p>
         Avant que les femmes ne l'utilisent pour manipuler, l'amour était un sentiment pur et sincère. Il était une force puissante qui pouvait unir les gens et créer des liens profonds. L'amour était un don, un cadeau que l'on offrait à l'autre sans rien attendre en retour.
